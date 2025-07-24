@@ -26,6 +26,23 @@
 
 }
 
+.navbar{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart{
+    width: 20px;
+}
+.menu{
+display: flex;
+    list-style-type: none;
+    gap: 30px;
+    
+}
+
 /*Banner section style*/
 
 .heroscton {
@@ -221,4 +238,181 @@
 }
 .box_txt{
     color: #FFFFFF;
+}
+
+
+.bg_image{
+    background-image: url(./assets/news-letter-bg.png);
+    max-width: 1440px;
+    height: 533px;
+    align-content: center;
+    text-align: center;
+}
+.bg_image h2{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+    color: #FFFFFF;
+}
+input{
+    width: 644px;
+    height: 50px;
+}
+
+
+/*Responsive website*/
+@media (max-width: 430px) {
+
+    /* General page padding for mobile */
+    body {
+        padding: 0 15px;
+    }
+
+    /* Navbar: stack vertically if needed */
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Hero Section */
+    .heroscton {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 40px auto;
+    }
+
+    .heroleft > h1 {
+        font-size: 36px;
+    }
+
+    .bigone {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /* OUR PLANTS text block */
+    .plant_txt_field h1 {
+        font-size: 36px;
+    }
+
+    .plant_txt_field p {
+        font-size: 16px;
+    }
+
+    /* PLANT CARDS - make 2 columns */
+    .steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        justify-items: center;
+    }
+
+    .step_card {
+        max-width: 100%;
+    }
+
+    .step_card > h4 {
+        font-size: 16px;
+    }
+
+    .step_card > p {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Plant Lover Section */
+    .plant_lover {
+        flex-direction: column-reverse;
+        gap: 20px;
+        max-height: none;
+    }
+
+    .image_section {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .trusted_icon {
+        position: static;
+        width: 150px;
+        height: auto;
+        margin-top: -40px;
+    }
+
+    .txt_section {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .second_heading {
+        font-size: 30px;
+    }
+
+    .list_item li {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    /* Latest Deals Section */
+    .ltst_deals h1 {
+        font-size: 32px;
+    }
+
+    .ltst_deals p {
+        font-size: 16px;
+    }
+
+    .box_parent {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .child_parent {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .first_box,
+    .second_box,
+    .only_box {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        padding: 40px 20px;
+    }
+
+    .only_box {
+        margin-left: 0;
+    }
+
+    .box_txt {
+        font-size: 16px;
+    }
+
+    /* Newsletter section */
+    .bg_image {
+        background-size: cover;
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .bg_image h2 {
+        font-size: 28px;
+    }
+
+    input {
+        width: 100%;
+        max-width: 100%;
+    }
 }
