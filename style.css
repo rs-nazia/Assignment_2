@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: "Noto Serif", serif;
-    
+
 }
+
 /*shared style*/
-.dcpretion{
+.dcpretion {
     font-family: "Inter", sans-serif;
     font-size: 1.2rem;
     font-weight: 400px;
@@ -13,32 +14,90 @@
     padding-bottom: 10px;
 }
 
+.btn{
+   width: 270px;
+   height:50px ;
+   font-size: 16px;
+   font-family: "Inter", sans-serif;
+   font-weight: 500;
+
+}
 
 
 
-
-
-.heroscton{
+.heroscton {
     display: flex;
     max-width: 1140px;
     margin: auto;
     justify-content: space-between;
     align-items: end;
     max-height: 461px;
-    margin-top: 100px ;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.heroleft > h1{
-  font-size: 65px;
-  font-weight: bold;
-  padding-top: 8px;
+.heroleft>h1 {
+    font-size: 65px;
+    font-weight: bold;
+    padding-top: 8px;
 
 }
-.colored_txt{
+
+.colored_txt {
     color: #E95A08;
 }
-.bigone{
+
+.bigone {
     max-width: 570px;
 
 }
+
+/*Our plant section style*/
+
+.plant_txt_field {
+    max-width: 540px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.plant_txt_field h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 8px;
+
+}
+
+.steps {
+    max-width: 1120px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    
+
+}
+
+
+.step_card>h4 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+
+}
+.step_card>p{
+    font-size: 22px;
+    font-weight: 500px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.step_card {
+    justify-content: center;
+    text-align: center;
+    max-width: 270px;
+    max-height: 484;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
