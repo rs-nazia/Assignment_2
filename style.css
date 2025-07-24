@@ -1,11 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
-
+    font-family: "Noto Serif", serif;
+    
 }
 /*shared style*/
 .dcpretion{
+    font-family: "Inter", sans-serif;
     font-size: 1.2rem;
+    font-weight: 400px;
     padding-top: 7px;
     padding-bottom: 10px;
 }
@@ -27,7 +30,8 @@
 }
 
 .heroleft > h1{
-  font-size: 56px;
+  font-size: 65px;
+  font-weight: bold;
   padding-top: 8px;
 
 }
