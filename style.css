@@ -259,6 +259,21 @@ input{
     height: 50px;
 }
 
+.footer{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 248px;
+}
+.side{
+    width: 359px;
+}
+.icon{
+    width: 36px;
+}
+
 
 /*Responsive website*/
 @media (max-width: 430px) {
