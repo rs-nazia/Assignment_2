@@ -20,10 +20,13 @@
    font-size: 16px;
    font-family: "Inter", sans-serif;
    font-weight: 500;
+   background-color: #E95A08;
+   border: 0;
+   color: #FFFFFF;
 
 }
 
-
+/*Banner section style*/
 
 .heroscton {
     display: flex;
@@ -99,5 +102,84 @@
     max-height: 484;
     gap: 20px;
     margin-bottom: 30px;
+}
+
+/* Plant lover section style*/
+.plant_lover{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    max-height: 597px;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.left_section{
+    position: relative;
+    
+}
+.txt_section{
+    max-width:540px ;
+    max-height: 521px;
+    align-items: center;
+    padding: 30px 30px;
+}
+.second_heading{
+   font-family: "Noto Serif", serif;
+   font-size: 50px;
+   font-weight: bold; 
+}
+.list_item li{
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.trusted_icon{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    left: 400px;
+    top: 8px;
+}
+.image_section{
+     background-image: linear-gradient(to bottom right, #67ABEA, #E95A08);
+    max-width: 540px;
+    max-height: 597px;
+    margin: 100px 30px 20px 30px;
+
+}
+
+/* latest deals section*/
+
+.ltst_deals{
+    
+    max-width: 1140px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.ltst_deals h1 {
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.ltst_deals p{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    max-width: 888px;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 400px;
+}
+.box_parent{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
