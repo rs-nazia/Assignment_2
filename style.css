@@ -33,11 +33,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.cart{
+.cart
+{
     width: 20px;
 }
 .menu{
-display: flex;
+    display: flex;
     list-style-type: none;
     gap: 30px;
     
@@ -272,6 +273,11 @@ input{
 }
 .icon{
     width: 36px;
+   
+}
+.pages{
+    list-style-type: none;
+    
 }
 
 
@@ -285,19 +291,20 @@ input{
 
     /* Navbar: stack vertically if needed */
     .navbar {
-        flex-direction: column;
-        gap: 10px;
+        /*flex-direction: column;
+        gap: 10px;*/
+        width: 361px;
+        justify-content: space-between;
     }
-
-    .menu {
-        flex-direction: column;
-        gap: 10px;
+    
+    .menu1 {
+        display: none;
     }
 
     /* Hero Section */
     .heroscton {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column-reverse;
+        
         align-items: center;
         margin: 40px auto;
     }
@@ -310,6 +317,7 @@ input{
         width: 100%;
         height: auto;
         margin-top: 20px;
+        
     }
 
     /* OUR PLANTS text block */
@@ -325,11 +333,17 @@ input{
     .steps {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
+        max-width: 362px;
+        margin: auto;
+        justify-content: space-between;
         justify-items: center;
     }
 
     .step_card {
-        max-width: 100%;
+        max-width: 171px;
+    }
+    .step_card img{
+        max-width: 171px;
     }
 
     .step_card > h4 {
@@ -347,9 +361,10 @@ input{
 
     /* Plant Lover Section */
     .plant_lover {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 20px;
         max-height: none;
+        max-width: 361px;
     }
 
     .image_section {
@@ -358,15 +373,12 @@ input{
     }
 
     .trusted_icon {
-        position: static;
-        width: 150px;
-        height: auto;
-        margin-top: -40px;
+       display: none;
     }
 
     .txt_section {
         padding: 10px;
-        text-align: center;
+        
     }
 
     .second_heading {
@@ -391,19 +403,24 @@ input{
         flex-direction: column;
         gap: 20px;
         align-items: center;
+        max-width: 361px;
     }
 
     .child_parent {
-        width: 100%;
+        max-width: 361px;
         gap: 15px;
     }
 
-    .first_box,
-    .second_box,
+    .first_box{
+        max-width: 361px;
+    }
+    .second_box{
+        max-width: 361px;
+    }
     .only_box {
-        width: 100%;
-        height: auto;
+        max-width: 361px;
         background-size: cover;
+        max-height: 172px;
         padding: 40px 20px;
     }
 
@@ -427,7 +444,16 @@ input{
     }
 
     input {
-        width: 100%;
-        max-width: 100%;
+        max-width:218px;
     }
+    .subscribe{
+        max-width: 103px;
+    }
+    .footer{
+        flex-direction: column;
+         align-items: flex-start;
+         gap: 20px;
+
+    }
+   
 }
