@@ -282,7 +282,7 @@ input{
 
 
 /*Responsive website*/
-@media (max-width: 430px) {
+@media (max-width: 600px) {
 
     /* General page padding for mobile */
     body {
@@ -311,6 +311,7 @@ input{
 
     .heroleft > h1 {
         font-size: 36px;
+        max-width: 361px;
     }
 
     .bigone {
@@ -393,6 +394,7 @@ input{
     /* Latest Deals Section */
     .ltst_deals h1 {
         font-size: 32px;
+      
     }
 
     .ltst_deals p {
